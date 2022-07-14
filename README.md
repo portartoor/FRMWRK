@@ -8,7 +8,6 @@ contains:
 - maximum logic and usability conception
 - nothing superfluous, only really necessary functionality and code
 
-=================
 List of functions:
 
 Main lib is placed [HERE](core/libs/frmwrk/frmwrk.php)
