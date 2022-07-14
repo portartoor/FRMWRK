@@ -11,18 +11,3 @@ contains:
 List of functions:
 
 Main lib is placed [HERE](core/libs/frmwrk/frmwrk.php)
-
--safety:
-$FRMWRK->CheckInjections($value);
-$FRMWRK->GenerateHash($value,$type);
-
--database work:
-$FRMWRK->DB();
-$FRMWRK->DBRecords($sql);
-$FRMWRK->DBRecordsCount($from,$where);
-$FRMWRK->DBRecordsUpdate($table,$fields,$where);
-$FRMWRK->DBRecordsCreate($table,$fields,$values);
-$FRMWRK->DBRecordsDelete($table,$where);
-
--emails work:
-$FRMWRK->EmailReturn($template,$content);
