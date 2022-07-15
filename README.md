@@ -68,4 +68,4 @@ modules and functions:
 > 
 > For use module funcs in your own code you need to use the variables named the same as module folder:
 >
-> $ExampleModule->Info();
+> $ModuleExample->Info();
