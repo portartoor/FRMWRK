@@ -26,7 +26,13 @@ routes:
 
 > The route model presents in that way:
 > https://your-domain.com/directory/page/GET_1/GET_2/GET_N/
+>
+> or if directory dont exist
 > 
+> https://your-domain.com/page/GET_1/GET_2/GET_N/
+>
+> if you want to link to concrete files, just use this location, according the Files directory:
+> https://your-domain.com/file_name.png
 
 files:
 
@@ -36,14 +42,7 @@ files:
 >- Views [core/views/](core/views/)
 >- Controls [core/controls/](core/controls/)
 
-> You can just create the file inside Views directory, which one named literally same as your wanted page in url link:
->
-> fore example: [core/views/debug.php](core/views/debug.php)
-> is responsible for https://your-domain.com/debug/
-> 
-> If you need https://your-domain.com/catalog/section
-> Create core/views/catalog/section.php
->
+> Just create files according to your url routes
 > Accordingly, you should similarly create files for models and controls.
 >
 > If you need to use other then MVC pattern yo ucan easy change the page generation system inside [core/main.php](core/main.php) file.
