@@ -8,6 +8,8 @@ contains:
 - maximum logic and usability conception
 - nothing superfluous, only really necessary functionality and code
 
+This framework is created as alternative solution for developers to build web apps with maximum freely and easily as possible. Therefore, I left only the necessary logical and structural functions and the cleanest possible architecture. I believe that thanks to this, literally every developer gets a very convenient and understandable tool for a quick start. More about FRMWRK project you can found at https://frmwrk.portartur.pro
+
 # Instalation
 
 1. clone this repository to your hosting root, or download zip archive and unpack to your root folder.
