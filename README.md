@@ -28,4 +28,5 @@ Because the basic framework build is assembled with MVC pattern you can easy ope
 You can just create the file inside Views directory, which one named literally same as your wanted page in url link:
 
 [core/views/debug.php](core/views/debug.php)
-for https://example-domain.com/new_page/
+
+for https://your-domain.com/debug/
