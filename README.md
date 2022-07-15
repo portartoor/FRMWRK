@@ -11,3 +11,8 @@ contains:
 # List of functions
 
 Main lib is placed [HERE](core/libs/frmwrk/frmwrk.php)
+
+# Instalation
+
+1. clone this repository to your hosting root, or download zip archive and unpack to your root folder.
+2. set your database access settings in [config file](core/config.php)
