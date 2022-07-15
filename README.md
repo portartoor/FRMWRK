@@ -60,6 +60,10 @@ config:
 
 modules and functions:
 
+> For the use of main lib functions just use selected function, by $FRMWRK variable:
+>
+> $FRMWRK->GenerateHash(10,'md5');
+> 
 > You can create, or upload modules inside [core/libs/modules/](core/libs/modules/). You have exapmle module for using in your own projects. Just creat correctly file structures, with module.php file contain Module class with your functions. All modules are loaded automatically.
 > 
 > For use module funcs in your own code you need to use the variables named the same as module folder:
