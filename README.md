@@ -9,7 +9,7 @@ More about FRMWRK project you can found at https://frmwrk.portartur.pro
 - ability to load modules
 - templating core with jquery 3.3.1 and normalized css included
 - maximum logic and usability conception
-- nothing superfluous, only really necessary functionality and code
+- nothing superfluous, only really necessary features and code
 
 # Instalation
 
