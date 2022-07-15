@@ -32,7 +32,7 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 >
 > Accordingly, you should similarly create files for models and controls.
 >
-> If you need to use other then MVC pattern yo ucan easy change the page generation system inside [core/main.php](core/main.php) this file.
+> If you need to use other then MVC pattern yo ucan easy change the page generation system inside [core/main.php](core/main.php) file.
 >- DrawPage($FilePath) function
 
 > Inside [core/config.php](core/config.php) you can set:
