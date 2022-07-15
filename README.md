@@ -19,18 +19,18 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 
 # Usage
 
-Because the basic framework build is assembled with MVC pattern you can easy operate with your pages by:
+> Because the basic framework build is assembled with MVC pattern you can easy operate with your pages by:
 
 - Models [core/models/](core/models/)
 - Views [core/views/](core/views/)
 - Controls [core/controls/](core/controls/)
 
-You can just create the file inside Views directory, which one named literally same as your wanted page in url link:
+> You can just create the file inside Views directory, which one named literally same as your wanted page in url link:
 
 fore example: [core/views/debug.php](core/views/debug.php)
 is responsible for https://your-domain.com/debug/
 
-Inside [core/config.php](core/config.php) you can set:
+> Inside [core/config.php](core/config.php) you can set:
 
 - $NoUImode - if the page isset in this array, page will be generated without any template.
 - $TemplateRoutes - here we have the array with association pages with concrete templates. If current page is not isset in this array, 'simple' template will be used.
