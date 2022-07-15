@@ -19,6 +19,8 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 
 # Usage
 
+routes:
+
 > Because the basic framework build is assembled with MVC pattern you can easy operate with your pages by:
 >
 >- Models [core/models/](core/models/)
@@ -35,7 +37,11 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 > If you need to use other then MVC pattern yo ucan easy change the page generation system inside [core/main.php](core/main.php) file.
 >- DrawPage($FilePath) function
 
+config:
+
 > Inside [core/config.php](core/config.php) you can set:
 >
 >- $NoUImode - if the page isset in this array, page will be generated without any template.
 >- $TemplateRoutes - here we have the array with association pages with concrete templates. If current page is not isset in this array, 'simple' template will be used.
+
+modules and functions:
