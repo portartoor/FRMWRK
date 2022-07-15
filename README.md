@@ -13,7 +13,7 @@ More about FRMWRK project you can found at https://frmwrk.portartur.pro
 
 # Instalation
 
-1. clone this repository to your hosting root, or download zip archive and unpack to your root folder.
+1. clone this repository to your project root, or download zip archive and unpack to your project root folder.
 2. set your database access settings in config file: [core/config.php](core/config.php)
 
 # Library functions
