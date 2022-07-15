@@ -34,6 +34,9 @@ routes:
 > 
 > https://your-domain.com/custom_script.php will looking for file custom_script.php inside [core/files/](core/files/)
 
+> If you want to update routes system - go to [core/main.php](core/main.php) file.
+>- GetRoutes() function
+
 files:
 
 > Because the basic framework build is assembled with MVC pattern you can easy operate with your pages by:
