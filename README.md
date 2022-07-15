@@ -33,4 +33,4 @@ is responsible for https://your-domain.com/debug/
 Inside [core/config.php](core/config.php) you can set:
 
 - $NoUImode - if the page isset in this array, page will be generated without any template.
-- $TemplateRoutes - here we have the array with association pages with concrete emplates. If current page is not isset in this array, 'simple' template will be used.
+- $TemplateRoutes - here we have the array with association pages with concrete templates. If current page is not isset in this array, 'simple' template will be used.
