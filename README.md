@@ -15,4 +15,4 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 # Instalation
 
 1. clone this repository to your hosting root, or download zip archive and unpack to your root folder.
-2. set your database access settings in [config file](core/config.php)
+2. set your database access settings in config file: [core/config.php](core/config.php)
