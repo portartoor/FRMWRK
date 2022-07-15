@@ -8,9 +8,9 @@ contains:
 - maximum logic and usability conception
 - nothing superfluous, only really necessary functionality and code
 
-# List of functions
+# Library functions
 
-Main lib is placed [HERE](core/libs/frmwrk/frmwrk.php)
+All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk.php](core/libs/frmwrk/frmwrk.php)
 
 # Instalation
 
