@@ -27,8 +27,13 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 
 > You can just create the file inside Views directory, which one named literally same as your wanted page in url link:
 >
->fore example: [core/views/debug.php](core/views/debug.php)
->is responsible for https://your-domain.com/debug/
+> fore example: [core/views/debug.php](core/views/debug.php)
+> is responsible for https://your-domain.com/debug/
+>
+> Accordingly, you should similarly create files for models and controls.
+>
+> If you need to use other then MVC pattern yo ucan easy change the page generation system inside [core/main.php](core/main.php) this file.
+>- DrawPage($FilePath) function
 
 > Inside [core/config.php](core/config.php) you can set:
 >
