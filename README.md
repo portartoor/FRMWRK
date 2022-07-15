@@ -24,6 +24,12 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 
 routes:
 
+> The route model presents in that way:
+> https://your-domain.com/directory/page/GET_1/GET_2/GET_N/
+> 
+
+files:
+
 > Because the basic framework build is assembled with MVC pattern you can easy operate with your pages by:
 >
 >- Models [core/models/](core/models/)
@@ -34,6 +40,9 @@ routes:
 >
 > fore example: [core/views/debug.php](core/views/debug.php)
 > is responsible for https://your-domain.com/debug/
+> 
+> If you need https://your-domain.com/catalog/section
+> Create core/views/catalog/section.php
 >
 > Accordingly, you should similarly create files for models and controls.
 >
