@@ -24,11 +24,10 @@ All framework functions is placed inside mine lib file: [core/libs/frmwrk/frmwrk
 
 routes:
 
-> The route model presents in that way:
+> The model is presented as follows:
 > https://your-domain.com/directory/page/GET_1/GET_2/GET_N/
 >
-> or if directory dont exist
-> 
+> or if directory dont exist:
 > https://your-domain.com/page/GET_1/GET_2/GET_N/
 >
 > if you want to link to concrete files, just use this location, according the Files directory:
