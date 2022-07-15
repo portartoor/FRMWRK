@@ -32,7 +32,8 @@ routes:
 > https://your-domain.com/page/GET_1/GET_2/GET_N/
 >
 > if you want to link to concrete files, just use this location, according the Files directory:
-> https://your-domain.com/file_name.png
+> 
+> https://your-domain.com/custom_script.php will looking for file custom_script.php inside [core/files/](core/files/)
 
 files:
 
