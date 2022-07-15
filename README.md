@@ -26,7 +26,6 @@ routes:
 
 > The model is presented as follows:
 > https://your-domain.com/directory/page/GET_1/GET_2/GET_N/
->
 > or if directory dont exist:
 > https://your-domain.com/page/GET_1/GET_2/GET_N/
 >
