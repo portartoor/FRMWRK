@@ -60,6 +60,8 @@ config:
 
 modules and functions:
 
-> You can create, or upload modules inside [core/libs/modules/](core/libs/modules/). You have exapmle module for using in your own projects. Just creat correctly file structures, with module.php file contain Module class with your functions. All modules are loaded automatically. For using in your own code you need to use the variables named the same as module folder:
+> You can create, or upload modules inside [core/libs/modules/](core/libs/modules/). You have exapmle module for using in your own projects. Just creat correctly file structures, with module.php file contain Module class with your functions. All modules are loaded automatically.
+> 
+> For use module funcs in your own code you need to use the variables named the same as module folder:
 >
 > $ExampleModule->Info();
