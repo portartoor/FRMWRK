@@ -29,3 +29,9 @@ You can just create the file inside Views directory, which one named literally s
 
 fore example: [core/views/debug.php](core/views/debug.php)
 is responsible for https://your-domain.com/debug/
+
+Inside [core/config.php](core/config.php) you can set:
+
+- No-Ui mode ($NoUImode)
+- different templates for diferrent urls ($TemplateRoutes)
+
